@@ -1,3 +1,6 @@
+interface Reportable {
+  summary(): string;
+}
 interface Vehicle {
   name: string;
   year: Date;
@@ -14,8 +17,18 @@ const oldCivic = {
   },
 };
 
-const printVehicle = (vehicle: Vehicle): void => {
-  console.log(`Name: ${vehicle.summary()}`);
+const myDrink = {
+  color: 'brown',
+  carbonated: true,
+  sugar: 40,
+  summary(): string {
+    return `My drink has ${this.sugar} grams of sugar`;
+  },
 };
 
-printVehicle(oldCivic);
+const printSummary = (item: Reportable): void => {
+  console.log(`Name: ${item.summary()}`);
+};
+
+printSummary(oldCivic);
+printSummary(myDrink);
