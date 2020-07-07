@@ -15,3 +15,10 @@ Arrays where each element is some consistent type of value
 - Typescript can prevent us from adding incompatible values to an array
 - We can get help with 'map', 'forEach', 'reduce' functions
 - Flexible - arrays can still contain multiple different types
+
+**Where to used typed Arrays?**
+Any time we need to represent a collection of records with some arbitrary sort order
+
+## Tuples
+
+Array like structure where each element represents some property of a record
