@@ -22,3 +22,10 @@ Any time we need to represent a collection of records with some arbitrary sort o
 ## Tuples
 
 Array like structure where each element represents some property of a record
+
+### Interfaces
+
+Interfaces + Classes = How we get really strong reuse in Typescript
+
+**Interfaces**
+Creates a new type, describing the property names and values types of an object
