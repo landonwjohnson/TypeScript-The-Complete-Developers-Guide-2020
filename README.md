@@ -7,6 +7,15 @@ Typescript tries to figure out what type of value a variable refers to
 **Classes**
 Blueprint to create an object with some fields(values) and methods (functions) to represent a 'thing'
 
+### Naming Conventions
+
+**Type Defination file naming convention**
+Typescript type files usually have a d before the ts. for example. "index.d.ts"
+
+**Exports**
+In typescript it is common pratice to **NOT** use default exports.
+Avoid default exports
+
 ### Arrays
 
 **Typed Arrays**
